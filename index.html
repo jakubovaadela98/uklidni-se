@@ -148,7 +148,8 @@
       .nav-mobile-logo { display: block !important; }
       nav { padding: 14px 20px; }
       .nav-links { display: none; }
-      nav span[style] { display: none; }
+      .nav-tagline { display: none !important; }
+      .nav-lotus { display: block !important; }
       section { padding: 56px 20px; }
       .hero {
         padding: 100px 24px 60px;
@@ -198,7 +199,13 @@
   <nav>
     <a href="#" class="nav-logo">
       <span class="nav-tagline" style="font-family: var(--font-display); font-size: 18px; color: var(--sage); font-style: italic; font-weight: 400; letter-spacing: 0.3px;">Uklidni se · první pomoc pro tvou mysl</span>
-      <span class="nav-mobile-logo" style="font-family: var(--font-display); font-size: 20px; color: var(--sage); font-style: italic; font-weight: 400; display: none;">Uklidni se</span>
+      <svg class="nav-lotus" width="36" height="32" viewBox="0 0 300 260" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <ellipse cx="150" cy="210" rx="110" ry="46" fill="none" stroke="#99ab87" stroke-width="8"/>
+        <ellipse cx="150" cy="168" rx="82" ry="100" fill="none" stroke="#99ab87" stroke-width="8"/>
+        <ellipse cx="150" cy="130" rx="50" ry="72" fill="none" stroke="#99ab87" stroke-width="6"/>
+        <ellipse cx="88" cy="190" rx="56" ry="30" transform="rotate(-35 88 190)" fill="none" stroke="#99ab87" stroke-width="7"/>
+        <ellipse cx="212" cy="190" rx="56" ry="30" transform="rotate(35 212 190)" fill="none" stroke="#99ab87" stroke-width="7"/>
+      </svg>
 
 
     </a>
@@ -215,7 +222,7 @@
   <section class="hero">
     <div class="hero-content">
       <p class="hero-eyebrow" data-i18n="hero.eyebrow">Mobilní aplikace</p>
-      <img src="logo-white.png" alt="Uklidni se" style="height: 140px; width: auto; margin-bottom: 16px;" />
+      <div class="hero-logo-text">Uklidni se</div>
       <p class="hero-subtitle" data-i18n="hero.subtitle">První pomoc při stresu a úzkosti</p>
       <p class="hero-desc" style="color: white;" data-i18n="hero.desc">Dechová cvičení, jednoduché techniky a tipy pro zvládání paniky, úzkosti, stresu a vyhoření - přímo v kapse. Kdykoli to potřebuješ.</p>
       <div class="hero-buttons">
