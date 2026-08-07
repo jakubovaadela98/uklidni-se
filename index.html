@@ -132,7 +132,10 @@
     .footer-links a:hover { color: var(--black); }
     .footer-copy { font-size: 12px; color: var(--gray); }
 
+    .nav-tagline { display: block; }
     @media (max-width: 900px) {
+      .nav-tagline { display: none; }
+      .nav-mobile-logo { display: block !important; }
       nav { padding: 14px 20px; }
       .nav-links { display: none; }
       nav span[style] { display: none; }
@@ -182,7 +185,8 @@
 
   <nav>
     <a href="#" class="nav-logo">
-      <span style="font-family: var(--font-display); font-size: 18px; color: var(--sage); font-style: italic; font-weight: 400; letter-spacing: 0.3px;">Uklidni se · první pomoc pro tvou mysl</span>
+      <span class="nav-tagline" style="font-family: var(--font-display); font-size: 18px; color: var(--sage); font-style: italic; font-weight: 400; letter-spacing: 0.3px;">Uklidni se · první pomoc pro tvou mysl</span>
+      <span class="nav-mobile-logo" style="font-family: var(--font-display); font-size: 20px; color: var(--sage); font-style: italic; font-weight: 400; display: none;">Uklidni se</span>
 
 
     </a>
